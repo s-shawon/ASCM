@@ -1,0 +1,307 @@
+0000.000 (0) Opened log file at time: Tue, 05 Mar 2024 20:36:57 +0000 on https://localhost/ascmnew
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.0.30 (apache2handler, Windows NT SHAWONS-PC 10.0 build 26058 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 71.6M | 74M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 365998.6 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.010 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.014 (0) Set semaphore last lock (fd) time to 2024-03-05 20:36:57
+0000.016 (0) Semaphore lock (fd) complete
+0000.019 (0) Backup run: resumption=0, nonce=eacac880bd7a, file_nonce=eacac880bd7a begun at=1709671017 (0s ago), job type=backup
+0000.022 (0) Scheduling a resumption (1) after 300 seconds (1709671317) in case this run gets aborted
+0000.036 (0) Checking if we have a zip executable available
+0000.039 (0) Creation of backups of directories: beginning
+0000.045 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.664 (0) Total entities for the zip file: 1162 directories, 5266 files (0 skipped as non-modified), 105.5 MB
+0002.670 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0002.770 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 100 files added (on-disk size: 196.5 KB)
+0002.814 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 200 files added (on-disk size: 196.5 KB)
+0002.861 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 300 files added (on-disk size: 196.5 KB)
+0002.910 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 400 files added (on-disk size: 196.5 KB)
+0002.919 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 5266 files batched, 418 (419) added so far); re-opening (prior size: 196.5 KB)
+0009.291 (0) A useful amount of data was added after this amount of zip processing: 7 s (normalised: 7 s, rate: 3675.9 KB/s)
+0009.339 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 500 files added (on-disk size: 5100.2 KB)
+0009.380 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 600 files added (on-disk size: 5100.2 KB)
+0009.423 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 700 files added (on-disk size: 5100.2 KB)
+0009.467 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 800 files added (on-disk size: 5100.2 KB)
+0009.508 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 900 files added (on-disk size: 5100.2 KB)
+0009.554 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 1000 files added (on-disk size: 5100.2 KB)
+0009.599 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 1100 files added (on-disk size: 5100.2 KB)
+0009.645 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 1200 files added (on-disk size: 5100.2 KB)
+0009.689 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 1300 files added (on-disk size: 5100.2 KB)
+0009.737 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 1400 files added (on-disk size: 5100.2 KB)
+0009.749 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.9 MB, 5266 files batched, 1001 (1420) added so far); re-opening (prior size: 5100.2 KB)
+0018.091 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 1500 files added (on-disk size: 11215.9 KB)
+0018.124 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 1600 files added (on-disk size: 11215.9 KB)
+0018.157 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 1700 files added (on-disk size: 11215.9 KB)
+0018.190 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 1800 files added (on-disk size: 11215.9 KB)
+0018.224 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 1900 files added (on-disk size: 11215.9 KB)
+0018.257 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 2000 files added (on-disk size: 11215.9 KB)
+0018.302 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 2100 files added (on-disk size: 11215.9 KB)
+0018.336 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 2200 files added (on-disk size: 11215.9 KB)
+0018.370 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 2300 files added (on-disk size: 11215.9 KB)
+0018.404 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 2400 files added (on-disk size: 11215.9 KB)
+0018.412 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.9 MB, 5266 files batched, 1001 (2421) added so far); re-opening (prior size: 11215.9 KB)
+0026.952 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 2500 files added (on-disk size: 14545.2 KB)
+0026.986 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 2600 files added (on-disk size: 14545.2 KB)
+0027.017 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 2700 files added (on-disk size: 14545.2 KB)
+0027.049 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 2800 files added (on-disk size: 14545.2 KB)
+0027.081 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 2900 files added (on-disk size: 14545.2 KB)
+0027.112 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 3000 files added (on-disk size: 14545.2 KB)
+0027.144 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 3100 files added (on-disk size: 14545.2 KB)
+0027.179 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 3200 files added (on-disk size: 14545.2 KB)
+0027.209 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 3300 files added (on-disk size: 14545.2 KB)
+0027.243 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 3400 files added (on-disk size: 14545.2 KB)
+0027.252 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.3 MB, 5266 files batched, 1001 (3422) added so far); re-opening (prior size: 14545.2 KB)
+0039.743 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 3500 files added (on-disk size: 21479.1 KB)
+0039.783 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 3600 files added (on-disk size: 21479.1 KB)
+0039.821 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 3700 files added (on-disk size: 21479.1 KB)
+0039.868 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 3800 files added (on-disk size: 21479.1 KB)
+0039.904 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 3900 files added (on-disk size: 21479.1 KB)
+0039.939 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 4000 files added (on-disk size: 21479.1 KB)
+0039.979 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 4100 files added (on-disk size: 21479.1 KB)
+0040.017 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 4200 files added (on-disk size: 21479.1 KB)
+0040.055 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 4300 files added (on-disk size: 21479.1 KB)
+0040.096 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 4400 files added (on-disk size: 21479.1 KB)
+0040.106 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.3 MB, 5266 files batched, 1001 (4423) added so far); re-opening (prior size: 21479.1 KB)
+0050.745 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 4500 files added (on-disk size: 28369.3 KB)
+0050.780 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 4600 files added (on-disk size: 28369.3 KB)
+0050.818 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 4700 files added (on-disk size: 28369.3 KB)
+0050.853 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 4800 files added (on-disk size: 28369.3 KB)
+0050.897 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 4900 files added (on-disk size: 28369.3 KB)
+0050.931 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 5000 files added (on-disk size: 28369.3 KB)
+0050.965 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 5100 files added (on-disk size: 28369.3 KB)
+0050.998 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.tmp: 5200 files added (on-disk size: 28369.3 KB)
+0062.744 (0) Creating zip file manifest (backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.list-temp.tmp)
+0062.762 (0) Successfully created zip file manifest (size: 425711)
+0063.020 (0) Created plugins zip (0) - 30085.8 KB in 63 s (477.8 KB/s) (sha1: 343e79184fcc33fac754900fd7df2c9c031ff4be, sha256: f4303356a1479cb04513d38d1afc19bb572ec4212c555dfa2623cc44a6e922d4)
+0063.029 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0063.030 (0) No remote despatch: user chose no remote backup service
+0063.031 (0) Recording as successfully uploaded: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip
+0063.033 (0) Deleting zip manifest (backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip.list.tmp)
+0063.037 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0063.038 (0) Number of backup sets in history: 0; groups (db): 1
+0063.039 (0) Number of backup sets in history: 0; groups (files): 1
+0063.040 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0063.046 (0) Beginning creation of dump of themes (split every: 400 MB)
+0063.455 (0) Total entities for the zip file: 318 directories, 780 files (0 skipped as non-modified), 19 MB
+0063.492 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0063.527 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0063.569 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0063.607 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0063.648 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0063.688 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0063.724 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0070.525 (0) Creating zip file manifest (backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip.list-temp.tmp)
+0070.530 (0) Successfully created zip file manifest (size: 66585)
+0070.587 (0) Created themes zip (0) - 5954.4 KB in 7.5 s (790.1 KB/s) (sha1: 20a3d91b691f784dddab54574ad735673978e87e, sha256: 52ffeb12d24cfa23172c7c814be03fd5d19f18a9f9edd9bd35ca77a9ddbc1959)
+0070.592 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0070.593 (0) No remote despatch: user chose no remote backup service
+0070.594 (0) Recording as successfully uploaded: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip
+0070.596 (0) Deleting zip manifest (backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip.list.tmp)
+0070.599 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0070.600 (0) Number of backup sets in history: 0; groups (db): 1
+0070.601 (0) Number of backup sets in history: 0; groups (files): 1
+0070.602 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0070.608 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0070.609 (0) Looking for candidates to backup in: C:\xampp\htdocs\ascmnew/wp-content/uploads
+0070.610 (0) finding files: 2024: adding to list (1)
+0070.611 (0) finding files: elementor: adding to list (2)
+0070.612 (0) finding files: pum: adding to list (3)
+0070.613 (0) finding files: wpcf7_uploads: adding to list (4)
+0070.614 (0) finding files: wpforms: adding to list (5)
+0070.615 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0070.670 (0) Total entities for the zip file: 10 directories, 147 files (0 skipped as non-modified), 17.8 MB
+0070.711 (0) Zip: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0071.325 (0) Creating zip file manifest (backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-uploads.zip.list-temp.tmp)
+0071.328 (0) Successfully created zip file manifest (size: 10538)
+0071.453 (0) Created uploads zip (0) - 16620.1 KB in 0.8 s (19922.3 KB/s) (sha1: d13cb7ea676bb69070e56ad16db60a5f2e18afd3, sha256: 064223f15c70a86943bd5756f338e6166cf9789dcfe6db658f572712552acff3)
+0071.458 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0071.459 (0) No remote despatch: user chose no remote backup service
+0071.460 (0) Recording as successfully uploaded: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-uploads.zip
+0071.462 (0) Deleting zip manifest (backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-uploads.zip.list.tmp)
+0071.464 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0071.466 (0) Number of backup sets in history: 0; groups (db): 1
+0071.467 (0) Number of backup sets in history: 0; groups (files): 1
+0071.468 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0071.474 (0) No backup of mu-plugins: excluded by user's options
+0071.476 (0) Beginning backup of other directories found in the content directory (index: 0)
+0071.478 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0071.479 (0) Looking for candidates to backup in: C:\xampp\htdocs\ascmnew/wp-content
+0071.480 (0) finding files: index.php: adding to list (1)
+0071.481 (0) finding files: plugins: skipping: this is the plugins directory
+0071.482 (0) finding files: themes: skipping: this is the themes directory
+0071.483 (0) finding files: updraft: skipping: this is the updraft directory
+0071.484 (0) finding files: upgrade: skipping: excluded by options
+0071.485 (0) finding files: upgrade-temp-backup: adding to list (2)
+0071.486 (0) finding files: uploads: skipping: this is the uploads directory
+0071.490 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0071.507 (0) Creating zip file manifest (backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-others.zip.list-temp.tmp)
+0071.509 (0) Successfully created zip file manifest (size: 43)
+0071.516 (0) Created others zip (0) - 0.3 KB in 0 s (9.5 KB/s) (sha1: d26e0a273b28483cf61d94e0faeb312fdd53b8fd, sha256: a5b05ac24be95a50335b509fb7bdf936c36cb376121de42baa1f6d25a389bf67)
+0071.521 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0071.522 (0) No remote despatch: user chose no remote backup service
+0071.523 (0) Recording as successfully uploaded: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-others.zip
+0071.525 (0) Deleting zip manifest (backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-others.zip.list.tmp)
+0071.527 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0071.528 (0) Number of backup sets in history: 0; groups (db): 1
+0071.529 (0) Number of backup sets in history: 0; groups (files): 1
+0071.530 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0071.538 (0) Saving backup status to database (elements: 8)
+0071.540 (0) Beginning creation of database dump (WordPress DB)
+0071.541 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0071.660 (0) Table wp_options: Total expected rows (via COUNT): 337
+0071.661 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.716 (0) Table wp_options: Rows added in this batch (next record: 1149): 332 (uncompressed bytes in this segment=1867804) in 0.16 seconds
+0071.725 (0) Table wp_options: finishing file(s) (2, 326.2 KB)
+0071.743 (0) Table wp_users: Total expected rows (via COUNT): 1
+0071.744 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.748 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1181) in 0.02 seconds
+0071.756 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0071.773 (0) Table wp_usermeta: Total expected rows (via COUNT): 29
+0071.774 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.777 (0) Table wp_usermeta: Rows added in this batch (next record: 30): 29 (uncompressed bytes in this segment=3392) in 0.02 seconds
+0071.786 (0) Table wp_usermeta: finishing file(s) (2, 1.7 KB)
+0071.800 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 17
+0071.801 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.805 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 802): 17 (uncompressed bytes in this segment=8786) in 0.02 seconds
+0071.813 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0071.827 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0071.829 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0071.837 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0071.851 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0071.852 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.855 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=711) in 0.01 seconds
+0071.862 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0071.875 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 41
+0071.877 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.880 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 41): 41 (uncompressed bytes in this segment=4212) in 0.01 seconds
+0071.888 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0071.909 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0071.911 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.02 seconds
+0071.919 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0071.937 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0071.938 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.943 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1885) in 0.02 seconds
+0071.955 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0071.991 (0) Table wp_links: Total expected rows (via COUNT): 0
+0071.994 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0072.001 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0072.625 (0) Table wp_postmeta: Total expected rows (approximate): 6114
+0073.247 (0) Table wp_postmeta: Rows added in this batch (next record: 7339): 6811 (uncompressed bytes in this segment=9045852) in 1.24 seconds
+0073.257 (0) Table wp_postmeta: finishing file(s) (2, 430.6 KB)
+0073.634 (0) Table wp_posts: Total expected rows (via COUNT): 1005
+0073.709 (0) Table wp_posts: Rows added in this batch (next record: 1045): 1005 (uncompressed bytes in this segment=5115430) in 0.45 seconds
+0073.721 (0) Table wp_posts: finishing file(s) (2, 139 KB)
+0073.734 (0) Table wp_term_relationships: Total expected rows (approximate): 19
+0073.738 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 22 (uncompressed bytes in this segment=978) in 0.01 seconds
+0073.746 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0073.765 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 8
+0073.766 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.769 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1090) in 0.02 seconds
+0073.777 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0073.810 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0073.813 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.02 seconds
+0073.821 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0073.844 (0) Table wp_terms: Total expected rows (via COUNT): 8
+0073.846 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.849 (0) Table wp_terms: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=905) in 0.02 seconds
+0073.856 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0073.883 (0) Table wp_e_events: Total expected rows (via COUNT): 1
+0073.884 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.886 (0) Table wp_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=773) in 0.02 seconds
+0073.894 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0073.912 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0073.917 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1979) in 0.02 seconds
+0073.925 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0073.951 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0073.956 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1140) in 0.02 seconds
+0073.964 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0073.992 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0073.993 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.01 seconds
+0074.002 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0074.031 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0074.033 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.02 seconds
+0074.042 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0074.067 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0074.070 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.02 seconds
+0074.077 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0074.093 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0074.094 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.097 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=911) in 0.02 seconds
+0074.105 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0074.106 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\ascmnew/wp-content/updraft/backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db.gz (line 1925, C:\xampp\htdocs\ascmnew\wp-content\plugins\updraftplus\backup.php)
+0074.109 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_options.table.tmpr1150.gz (1/23/fopen): adding to final database dump
+0074.117 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_options.table.gz (2/23/fopen): adding to final database dump
+0074.118 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_users.table.tmpr2.gz (3/23/fopen): adding to final database dump
+0074.120 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_users.table.gz (4/23/fopen): adding to final database dump
+0074.121 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_usermeta.table.tmpr31.gz (5/23/fopen): adding to final database dump
+0074.122 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_usermeta.table.gz (6/23/fopen): adding to final database dump
+0074.123 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_actionscheduler_actions.table.tmpr803.gz (7/23/fopen): adding to final database dump
+0074.125 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_actionscheduler_actions.table.gz (8/23/fopen): adding to final database dump
+0074.126 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/23/fopen): adding to final database dump
+0074.127 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_actionscheduler_claims.table.gz (10/23/fopen): adding to final database dump
+0074.128 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/23/fopen): adding to final database dump
+0074.130 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_actionscheduler_groups.table.gz (12/23/fopen): adding to final database dump
+0074.131 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_actionscheduler_logs.table.tmpr42.gz (13/23/fopen): adding to final database dump
+0074.132 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_actionscheduler_logs.table.gz (14/23/fopen): adding to final database dump
+0074.133 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_commentmeta.table.tmpr0.gz (15/23/fopen): adding to final database dump
+0074.134 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_commentmeta.table.gz (16/23/fopen): adding to final database dump
+0074.135 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_comments.table.tmpr2.gz (17/23/fopen): adding to final database dump
+0074.137 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_comments.table.gz (18/23/fopen): adding to final database dump
+0074.138 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_links.table.tmpr0.gz (19/23/fopen): adding to final database dump
+0074.139 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_links.table.gz (20/23/fopen): adding to final database dump
+0074.140 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_postmeta.table.tmpr7340.gz (21/23/fopen): adding to final database dump
+0074.153 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_postmeta.table.gz (22/23/fopen): adding to final database dump
+0074.154 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_posts.table.tmpr1046.gz (23/23/fopen): adding to final database dump
+0074.159 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_posts.table.gz (24/23/fopen): adding to final database dump
+0074.160 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_term_relationships.table.tmpr100001.gz (25/23/fopen): adding to final database dump
+0074.162 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_term_relationships.table.gz (26/23/fopen): adding to final database dump
+0074.163 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_term_taxonomy.table.tmpr9.gz (27/23/fopen): adding to final database dump
+0074.164 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_term_taxonomy.table.gz (28/23/fopen): adding to final database dump
+0074.165 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_termmeta.table.tmpr0.gz (29/23/fopen): adding to final database dump
+0074.167 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_termmeta.table.gz (30/23/fopen): adding to final database dump
+0074.168 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_terms.table.tmpr9.gz (31/23/fopen): adding to final database dump
+0074.169 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_terms.table.gz (32/23/fopen): adding to final database dump
+0074.170 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_e_events.table.tmpr2.gz (33/23/fopen): adding to final database dump
+0074.171 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_e_events.table.gz (34/23/fopen): adding to final database dump
+0074.172 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_e_submissions.table.tmpr0.gz (35/23/fopen): adding to final database dump
+0074.174 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_e_submissions.table.gz (36/23/fopen): adding to final database dump
+0074.175 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (37/23/fopen): adding to final database dump
+0074.177 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_e_submissions_actions_log.table.gz (38/23/fopen): adding to final database dump
+0074.178 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_e_submissions_values.table.tmpr0.gz (39/23/fopen): adding to final database dump
+0074.179 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_e_submissions_values.table.gz (40/23/fopen): adding to final database dump
+0074.180 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (41/23/fopen): adding to final database dump
+0074.181 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_wpforms_payment_meta.table.gz (42/23/fopen): adding to final database dump
+0074.183 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_wpforms_payments.table.tmpr0.gz (43/23/fopen): adding to final database dump
+0074.184 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_wpforms_payments.table.gz (44/23/fopen): adding to final database dump
+0074.185 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_wpforms_tasks_meta.table.tmpr6.gz (45/23/fopen): adding to final database dump
+0074.186 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db-table-wp_wpforms_tasks_meta.table.gz (46/23/fopen): adding to final database dump
+0074.233 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db.gz: finished writing out complete database file (908.1 KB)
+0074.253 (0) Total database tables backed up: 23 (backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db.gz, size: 930033, sha1: a824d0c24005af2ed307fc6c4006b6a3759b2988, sha256: 67761a68479aaaba2cef14a9bfb89a4ae54de6ab91079493727471f8b6ecd478)
+0074.259 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-plugins.zip: plugins: This file has already been successfully uploaded
+0074.260 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-themes.zip: themes: This file has already been successfully uploaded
+0074.261 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-uploads.zip: uploads: This file has already been successfully uploaded
+0074.262 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-others.zip: others: This file has already been successfully uploaded
+0074.263 (0) backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0074.263 (0) Saving backup history. Total backup size: 52.3 MB
+0074.265 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0074.268 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0074.269 (0) No remote despatch: user chose no remote backup service
+0074.269 (0) Recording as successfully uploaded: backup_2024-03-05-2036_ASCM_Bangladesh_eacac880bd7a-db.gz
+0074.272 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0074.274 (0) Number of backup sets in history: 1; groups (db): 1
+0074.274 (0) Examining (for databases) backup set with group_id=0, nonce=eacac880bd7a, datestamp=1709671017 (Mar 05 2024 20:36:57)
+0074.275 (0) This backup set is the backup set just made, so will not be deleted.
+0074.275 (0) Number of backup sets in history: 1; groups (files): 1
+0074.276 (0) Examining (for files) backup set with nonce=eacac880bd7a, datestamp=1709671017 (Mar 05 2024 20:36:57)
+0074.276 (0) This backup set is the backup set just made, so will not be deleted.
+0074.277 (0) This backup set is the backup set just made, so will not be deleted.
+0074.277 (0) This backup set is the backup set just made, so will not be deleted.
+0074.277 (0) This backup set is the backup set just made, so will not be deleted.
+0074.277 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.278 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0074.280 (0) Resume backup (eacac880bd7a, 0): finish run
+0074.282 (0) Decremented the semaphore (fd) by 1
+0074.284 (0) Semaphore (fd) unlocked
+0074.285 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0074.289 (0) No email will/can be sent - the user has not configured an email address.
+0074.290 (0) The backup succeeded and is now complete

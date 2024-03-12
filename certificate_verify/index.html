@@ -332,6 +332,10 @@ flexibility(document.documentElement);
 							iframe.onload = function() {
 								document.getElementById('loading').style.display = 'none';
 							};
+							iframe.onerror = function() {
+								alert("Error loading content.");
+								document.getElementById('loading').style.display = 'none';
+							};
 							iframe.src = "http://ascmbangladeshverify.000.pe/verify.php?i=1";
 						};
 					</script>

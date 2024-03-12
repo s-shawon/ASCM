@@ -267,170 +267,149 @@ flexibility(document.documentElement);
 							</div>
 				</header>
 
-		<div id="content" class="site-content">
-		<div class="ast-container">
-		
+					<title>Search Certificate</title>
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<style>
+						body {
+							font-family: Arial, sans-serif;
+							background-color: #f2f2f2; /* Change this to match your website color */
+							margin: 0;
+							padding: 0;
+						}
+						.search-container {
+							width: 90%; /* Adjust width for smaller screens */
+							max-width: 400px; /* Set maximum width */
+							margin: 50px auto; /* Adjust margin */
+							background-color: #ffffff; /* Change this to match your website color */
+							border-radius: 10px;
+							padding: 20px;
+							box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+							text-align: center;
+						}
+						.search-container input[type=text] {
+							width: calc(100% - 80px); /* Adjust width for smaller screens */
+							padding: 10px; /* Remove comma */
+							margin-bottom: 10px;
+							border: 1px solid #ccc;
+							border-radius: 5px;
+							box-sizing: border-box;
+						}
+						.search-submit {
+							background-color: #007bff; /* Change this to match your website blue color */
+							color: white;
+							padding: 10px; /* Remove comma */
+							border: none;
+							border-radius: 5px;
+							cursor: pointer;
+							width: 100%; /* Adjust width for smaller screens */
+							box-sizing: border-box;
+						}
+						.search-results {
+							width: 90%; /* Adjust width for smaller screens */
+							max-width: 400px; /* Set maximum width */
+							margin: 20px auto; /* Adjust margin */
+							background-color: #f2f2f2; /* Light gray background */
+							border-radius: 10px;
+							padding: 20px;
+							box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+							overflow: hidden;
+						}
+						table {
+							width: 100%;
+							border-collapse: collapse;
+							border-spacing: 0;
+							margin-bottom: 20px;
+							box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Add box shadow */
+							margin: 0 auto; /* Align table in the middle */
+						}
+						th, td {
+							padding: 12px;
+							text-align: auto; /* Left align table cells */
+							border-bottom: 1px solid #ddd;
+						}
+						th {
+							background-color: #007bff; /* Change this to match your website background color */
+							color: white; /* Change this to match your website text color */
+						}
+						tr:nth-child(even) {
+							background-color: #f2f2f2; /* Alternate row color */
+						}
+						tr:hover {
+							background-color: #ddd; /* Hover row color */
+						}
+				
+						/* Adjustments for smaller screens */
+						@media screen and (max-width: 600px) {
+							.search-container {
+								width: 90%;
+								margin-top: 20px;
+							}
+							.search-container input[type=text] {
+								width: calc(100% - 20px);
+							}
+							.search-submit {
+								width: 100%;
+								margin-top: 10px;
+							}
+							.search-results {
+								width: 90%;
+								margin-top: 20px;
+							}
+						}
+					</style>
 
-	<div id="primary" class="content-area primary">
-
-		
-					<main id="main" class="site-main">
-				<article class="post-1264 page type-page status-publish ast-article-single" id="post-1264" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
-	
-	
-	<header class="entry-header ast-no-thumbnail ast-no-title ast-header-without-markup">
-			</header> <!-- .entry-header -->
-
-
-<div class="entry-content clear" itemprop="text">
-
-	
-			<div data-elementor-type="wp-page" data-elementor-id="1264" class="elementor elementor-1264" data-elementor-post-type="page">
-							<div class="elementor-element elementor-element-19190a2 e-flex e-con-boxed e-con e-parent" data-id="19190a2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-d48f665 elementor-widget elementor-widget-text-editor" data-id="d48f665" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.18.0 - 20-12-2023 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>&#8220;Welcome to the ASCM Bangladesh Certificate Verification portal. Here, you can authenticate the validity of certificates issued by ASCM. Simply input the unique certificate ID and your details to verify its authenticity and ensure credibility. ASCM is committed to upholding the highest standards of certification, empowering individuals with recognized qualifications in supply chain management. Verify your ASCM certificate now for trust and peace of mind.&#8221;</p>						</div>
+				
+				<div class="search-container">
+					<form method="post" action="">
+						<label for="searchNo">Enter Certificate ID:</label>
+						<input type="text" id="searchNo" name="searchNo" placeholder="Certificate ID">
+						<input type="submit" class="search-submit" value="Search">
+					</form>
 				</div>
-					</div>
+				
+				<div class="search-results">
+					<?php
+					if ($_SERVER["REQUEST_METHOD"] == "POST") {
+						$searchNo = $_POST['searchNo'];
+						$servername = "sql6.freesqldatabase.com";
+						$username = "sql6690655";
+						$password = "2qgeVLpKxk";
+						$dbname = "sql6690655";
+				
+						// Create connection
+						$conn = new mysqli($servername, $username, $password, $dbname);
+				
+						// Check connection
+						if ($conn->connect_error) {
+							die("Connection failed: " . $conn->connect_error);
+						}
+				
+						$sql = "SELECT * FROM Certificate WHERE No = '$searchNo'";
+						$result = $conn->query($sql);
+				
+						if ($result->num_rows > 0) {
+							echo "<table>";
+							while ($row = $result->fetch_assoc()) {
+								echo "<tr><th>Certificate No</th><td>" . $row["No"] . "</td></tr>";
+								echo "<tr><th>Name</th><td>" . $row["Name"] . "</td></tr>";
+								echo "<tr><th>Course</th><td>" . $row["Course"] . "</td></tr>";
+								echo "<tr><th>Duration</th><td>" . $row["Duration"] . "</td></tr>";
+								echo "<tr><th>Date</th><td>" . $row["Date"] . "</td></tr>";
+								echo "<tr><th>Marks</th><td>" . $row["Marks"] . "</td></tr>";
+							}
+							echo "</table>";
+						} else {
+							echo "No records found.";
+						}
+				
+						$conn->close();
+					}
+					?>
 				</div>
-		<div class="elementor-element elementor-element-4f1a8ba e-flex e-con-boxed e-con e-parent" data-id="4f1a8ba" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-702a913 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-shortcode" data-id="702a913" data-element_type="widget" data-widget_type="shortcode.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-shortcode">
-
-
-    <title>Search Certificate</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2; /* Change this to match your website color */
-            margin: 0;
-            padding: 0;
-        }
-        .search-container {
-            width: 90%; /* Adjust width for smaller screens */
-            max-width: 400px; /* Set maximum width */
-            margin: 50px auto; /* Adjust margin */
-            background-color: #ffffff; /* Change this to match your website color */
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
-            text-align: center;
-        }
-        .search-container input[type=text] {
-            width: calc(100% - 80px); /* Adjust width for smaller screens */
-            padding: 10px; /* Remove comma */
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-        .search-submit {
-            background-color: #007bff; /* Change this to match your website blue color */
-            color: white;
-            padding: 10px; /* Remove comma */
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            width: 100%; /* Adjust width for smaller screens */
-            box-sizing: border-box;
-        }
-        .search-results {
-            width: 90%; /* Adjust width for smaller screens */
-            max-width: 400px; /* Set maximum width */
-            margin: 20px auto; /* Adjust margin */
-            background-color: #f2f2f2; /* Light gray background */
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
-            overflow: hidden;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            border-spacing: 0;
-            margin-bottom: 20px;
-            box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Add box shadow */
-            margin: 0 auto; /* Align table in the middle */
-        }
-        th, td {
-            padding: 12px;
-            text-align: auto; /* Left align table cells */
-            border-bottom: 1px solid #ddd;
-        }
-        th {
-            background-color: #007bff; /* Change this to match your website background color */
-            color: white; /* Change this to match your website text color */
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2; /* Alternate row color */
-        }
-        tr:hover {
-            background-color: #ddd; /* Hover row color */
-        }
-
-        /* Adjustments for smaller screens */
-        @media screen and (max-width: 600px) {
-            .search-container {
-                width: 90%;
-                margin-top: 20px;
-            }
-            .search-container input[type=text] {
-                width: calc(100% - 20px);
-            }
-            .search-submit {
-                width: 100%;
-                margin-top: 10px;
-            }
-            .search-results {
-                width: 90%;
-                margin-top: 20px;
-            }
-        }</style>
-
-
-
-<div class="search-container">
-    <form method="post" action="">
-        <label for="searchNo">Enter Certificate ID:</label>
-        <input type="text" id="searchNo" name="searchNo" placeholder="Certificate ID">
-        <input type="submit" class="search-submit" value="Search">
-    </form>
-</div>
-
-<div class="search-results">
-    </div>
-
-
-</div>
-				</div>
-				</div>
-					</div>
-				</div>
-							</div>
-		
-	
-	
-</div>
-<!-- .entry-content .clear -->
-
-	
-	
-</article><!-- #post-## -->
-
-			</main><!-- #main -->
-			
-		
-	</div>
-<!-- #primary -->
-
-
-	</div> <!-- ast-container -->
-	</div>
-<!-- #content -->
+				
+				</body>
+				</html>
+				
 		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
 			<div class="footer-width-fixer">		<div data-elementor-type="wp-post" data-elementor-id="208" class="elementor elementor-208" data-elementor-post-type="elementor-hf">
 							<div class="elementor-element elementor-element-121abb9 e-flex e-con-boxed e-con e-parent" data-id="121abb9" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">

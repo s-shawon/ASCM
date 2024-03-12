@@ -317,8 +317,8 @@ flexibility(document.documentElement);
 							width: 50px;
 							height: 50px;
 						}
-						#externalSite {
-							background-color: transparent; /* Set background color of iframe to transparent */
+						#externalContainer {
+							background-color: white; /* Set background color of container div to white */
 						}
 					</style>
 					</head>
@@ -326,7 +326,9 @@ flexibility(document.documentElement);
 					<div id="loading">
 						<img src="https://cdnjs.cloudflare.com/ajax/libs/galleriffic/2.0.1/css/loader.gif" alt="Loading...">
 					</div>
-					<iframe id="externalSite" src="" width="100%" height="800px" frameborder="0"></iframe>
+					<div id="externalContainer">
+						<iframe id="externalSite" src="" width="100%" height="800px" frameborder="0"></iframe>
+					</div>
 					
 					<script>
 						window.onload = function() {

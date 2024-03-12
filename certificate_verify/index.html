@@ -323,9 +323,16 @@ flexibility(document.documentElement);
             overflow-x: hidden; /* Hide horizontal overflow */
         }
         #externalSite {
-            width: 100%; /* Make sure the iframe spans the full width */
-            height: 100vh; /* Set iframe height to viewport height */
+            width: 100%; /* Make sure the iframe spans the full width by default */
+            height: 800px; /* Set default height for iframe */
             border: 0; /* Remove iframe border */
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* Adjust iframe width to 90% of viewport on mobile devices */
+            #externalSite {
+                width: 90%;
+            }
         }
     </style>
 </head>
